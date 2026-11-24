@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B2433"
+    android:orientation="vertical">
+
+    <!-- 버튼 순서: 이전 · 다음 · 삭제 · 파일열기 · 닫기 (삭제만 빨간색) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navy"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="12dp"
+        android:paddingEnd="6dp">
+
+        <TextView
+            android:id="@+id/pvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pvPrev"
+            style="@style/Btn.Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="◀ 이전" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pvNext"
+            style="@style/Btn.Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="다음 ▶" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pvDelete"
+            style="@style/Btn.Red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="삭제" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pvOpen"
+            style="@style/Btn.Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="파일열기" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/pvClose"
+            style="@style/Btn.Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="닫기" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pvImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/pvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0B1420"
+        android:paddingStart="12dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:textColor="#C9D8EE"
+        android:textSize="11sp" />
+</LinearLayout>

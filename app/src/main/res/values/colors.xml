@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy">#102A43</color>
+    <color name="page">#EEF3FB</color>
+    <color name="card">#FFFFFF</color>
+    <color name="border">#D6E0F0</color>
+    <color name="band">#E8F0FE</color>
+    <color name="band_fg">#1F5FBF</color>
+    <color name="text">#20364D</color>
+    <color name="sub">#6B7C93</color>
+    <color name="blue">#2563D8</color>
+    <color name="green">#16A36A</color>
+    <color name="red">#D9363E</color>
+    <color name="purple">#6D28D9</color>
+    <color name="header_fg">#C9D8EE</color>
+</resources>

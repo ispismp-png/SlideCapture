@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SlideCapture" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/navy</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:windowBackground">@color/page</item>
+    </style>
+    <style name="Theme.SlideCapture.Dark" parent="Theme.SlideCapture">
+        <item name="android:windowBackground">#1B2433</item>
+    </style>
+    <style name="Btn" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">13sp</item>
+        <item name="android:insetTop">2dp</item>
+        <item name="android:insetBottom">2dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Btn.Blue"><item name="backgroundTint">@color/blue</item></style>
+    <style name="Btn.Red"><item name="backgroundTint">@color/red</item></style>
+    <style name="Btn.Green"><item name="backgroundTint">@color/green</item></style>
+    <style name="Btn.Purple"><item name="backgroundTint">@color/purple</item></style>
+    <style name="Opt" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:minHeight">34dp</item>
+    </style>
+</resources>
